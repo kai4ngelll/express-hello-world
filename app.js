@@ -4,10 +4,8 @@ const app = express();
 let panel = "close";
 
 app.get("/", (req, res) => {
-
 res.send(`
 <body style="background:black;color:white;text-align:center;padding-top:100px;">
-
 <h1>STACY PILOT PANEL</h1>
 
 <button onclick="fetch('/open')" style="font-size:40px;">
@@ -22,7 +20,6 @@ CLOSE
 
 </body>
 `);
-
 });
 
 app.get("/open", (req, res) => {
