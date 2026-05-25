@@ -37,5 +37,3 @@ res.send(panel);
 });
 
 app.listen(process.env.PORT || 3000);
-
-.
